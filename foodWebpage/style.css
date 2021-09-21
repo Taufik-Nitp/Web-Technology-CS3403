@@ -75,9 +75,43 @@ position: absolute;
 background: url('foodtop.jpg') no-repeat center center/cover;
 height: 100%;
 width: 100%;
+
 z-index: -3; 
 opacity: .8;
 }
+
+@media only screen and (min-device-width: 1326px) and ( max-device-width: 1571px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 84%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
+}
+
+@media only screen and (min-device-width: 1572px) and ( max-device-width: 1888px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 85%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
+}
+
 #homeheading{
     color: white;
 }

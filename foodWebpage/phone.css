@@ -39,7 +39,155 @@
     z-index: -3;
     opacity: .8;
 }
+@media only screen and (min-device-width: 267px) and ( max-device-width: 311px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 127%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
 }
+
+@media only screen and (min-device-width: 0px) and ( max-device-width: 312px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 145%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
+}
+@media only screen and (min-device-width: 312px) and ( max-device-width: 342px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 121%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
+}
+@media only screen and (min-device-width: 343px) and ( max-device-width: 352px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 120%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
+}
+
+@media only screen and (min-device-width: 353px) and ( max-device-width: 378px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 110%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
+}
+
+
+@media only screen and (min-device-width: 379px) and ( max-device-width: 568px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 100%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
+}
+
+@media only screen and (min-device-width: 568px) and ( max-device-width: 573px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 100%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
+}
+
+@media only screen and (min-device-width: 574px) and ( max-device-width: 610px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 90%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 611px) and ( max-device-width: 1322px) {
+    
+    #home::before{
+        content: "";
+   position: absolute;
+   background: url('foodtop.jpg') no-repeat center center/cover;
+   height: 78%;
+   width: 100%;
+   
+   z-index: -3; 
+   opacity: .8;
+   }
+
+
+}
+
 
 /* services */
 
