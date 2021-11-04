@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: red;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin: 4px 4px;
+    padding: 5px 8px;
+}
+a{
+    text-decoration: none;
+}
+
+#intro{
+    height: 300px;
+    background-color:yellow;
+}
+
+
+#sponsor{
+    height: 300px;
+    background-color: green;
+}
+
+
+#foot{
+    height: 300px;
+    background-color: blue;
+}

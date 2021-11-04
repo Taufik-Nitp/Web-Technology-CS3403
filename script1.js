@@ -12,10 +12,3 @@ function toggleHide(){
     para.style.display='block';
  }      
 }
-
-function time(){
-    // console.log(new Date);
-    
-    document.getElementById('gettime').innerHTML=new Date();
-   }
-setInterval(time,1000);

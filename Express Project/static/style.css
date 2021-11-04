@@ -1,0 +1,58 @@
+nav ul li{
+    display: inline-block;
+    margin: 4px 5px;
+    padding: 10px 10px;
+    font-size: 25px;
+   
+}
+nav{
+    background-color: grey;
+
+    
+}
+a{
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+#contact input, textarea{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width:60%;
+     outline:  none;
+    border: 3px solid black;
+    border-radius: 5px;
+
+    
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.btn{
+    display: block;
+    margin: 5px auto;
+    padding: 5px 5px;
+    border-radius: 2px solid black;
+    cursor:pointer;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 6px;
+
+
+    
+}
+
+body::before{
+    content: " ";
+    width: 1400px;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+    background: url('/static/bg.jpg') no-repeat center center;
+    z-index: -1;
+    opacity: .7;
+
+}

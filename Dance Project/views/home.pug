@@ -1,0 +1,30 @@
+extends base.pug
+
+block scripts
+  script(src="/static/index.js")
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+     nav#navbar 
+         ul 
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+
+     section#intro
+
+        h1 India Dance Academy
+        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque animi, ex autem aspernatur esse eos magnam aperiam illum temporibus ipsa itaque ad optio, nihil dolores aliquam accusamus molestias obcaecati reprehenderit quis! Numquam ipsam animi quo inventore consectetur dolor cupiditate repellat.fdsf
+
+
+     section#sponsor
+
+        | section for sponsor right now
+
+     footer#foot
+        |sectoin for footer      

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="para">
+    The Summer Olympic Games, also known as the Games of the Olympiad, are a major international multi-sport event normally held once every four years. The inaugural Games took place in 1896 in Athens, Greece, and most recently the postponed 2020 Summer Olympics were celebrated in 2021 in Tokyo, Japan
+   </p>
+   <button  onclick="changeColor()">ChangeColor</button>
+ 
+</body>
+</html>
+<script>
+  let a=5;        // global scope variable
+
+
+
+
+   function changeColor(){
+     let a=8;        /// local scope variable
+    let p=document.getElementById('para');
+    if(a==5)
+     p.style.color="red";
+     else{
+    p.style.color="blue";  
+   }
+
+
+   }
+
+  
+  
+</script>
