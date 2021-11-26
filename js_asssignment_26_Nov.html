@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: red;">JS Assignment </h1>
+    <h2 style="text-align: center;color: seagreen;"> Object in javascript</h2>
+    <div style="border: 2px solid grey; background-color: skyblue;color: rgb(12, 12, 12); width: 50%; margin-left: 300px;margin-right: 200;" >
+
+        <p >
+            Three ways to create object in javascript are:
+            <ol>
+                <li>Using Object literal</li>
+                <li>Using new keyword</li>
+                <li>using constructor</li>
+            </ol>
+        </p>
+    </div>
+</body>
+
+<script>
+
+    var Person1={
+        FirstName:"Taufik",
+        LastName:"Ali",
+        "Office Address":"Kankarbagh Patna-20"
+    }
+       console.log(Person1);
+     
+
+      function person(FirstName,LastName,OfficeAdress){
+             this.FirstName=FirstName;
+             this.LastName=LastName;
+             this.OfficeAdress=OfficeAdress;
+      }
+
+      var person2= new person("Christiano", "Ronaldo","Portugal");
+      console.log("The person name is ",person2.FirstName,person2.LastName," and his/her address is ", person2.OfficeAdress)
+
+
+    var Person3= new Object();
+    Person3.FirstName="Priyanka";
+    Person3.LastName="Chopra";
+    Person3.OfficeAdress="California USA";
+    console.log("The person name is ",Person3.FirstName,Person3.LastName," and his/her location is ",Person3.OfficeAdress);
+
+ 
+
+
+</script>
+</html>
